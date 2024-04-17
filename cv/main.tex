@@ -1,0 +1,212 @@
+% Preamble
+% Compile with XeLateX
+
+\documentclass[11 pt,oneside,a4paper,titlepage]{article}
+\usepackage{preamble}
+\graphicspath{{PIC/}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+\sidebar{sideBarColor!25}
+\simpleheader{titleBackColor}{Luis}{Miranda Navarro}{PhD Student at \href{https://www.uc.cl/}{PUC}\hspace{1mm} \faLightbulbO \hspace{1mm} PhD in Computer Science, area Clinical NLP and Data Privacy}{white}
+
+% Start Minipages
+\vspace*{3.49cm}% start 8 cm from the top of the page}
+    \adjustbox{valign=t}{\begin{minipage}{7.3cm} % large 7.4 cm from the top
+    \vspace*{1.2cm} % text starts 1cm under the top of the minipage
+            
+         %Picture
+        %\begin{center}
+        %\begin{tikzpicture}
+            %\node[
+            %circle,
+            %minimum size=\cvPictureWidth,
+            %path picture={
+            %\node at (path picture bounding box.center){
+             %\includegraphics[width=\cvPictureWidth]{PIC/perfil.jpeg}
+             %};
+             %}]
+            %{};
+        %\end{tikzpicture}
+        %\end{center}
+
+        %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+        % Profile section
+        \ruleline{\textbf{About me}}
+       PhD student in Computer Science, specializing in Natural Language Processing and Data Privacy in the Clinical Domain, and holding a Bachelor's degree in Physics from UC. Currently employed as a researcher and data scientist at various institutions, including the Chilean Safety Association (\href{https://achs.cl/}{ACHS}) and the Millenium Institute for Foundational Research on Data (\href{https://imfd.cl/}{IMFD}). Also, a member of the Natural Language Processing research group at the Center for Mathematical Modeling (\href{https://github.com/plncmm/}{PLNCMM}). Has worked as a teaching assistant since the beginning of their career in physics subjects, acquiring soft skills and teaching abilities. Proficient in Python, artificial intelligence, and software engineering. Developed self-taught and research skills in NLP and programming, having co-authored 2 papers currently under review. Enjoys sports such as swimming and trekking.
+        
+        %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+        % Contact Section
+        \ruleline{\textbf{Personal Info}}
+        \begin{tikzpicture}[every node/.style={inner sep=0pt, outer sep=0pt}]
+        \matrix [
+        column 1/.style={anchor=center,contactIcon},
+        column 2/.style={anchor=west,align=left,contactIcon},
+        column sep=5pt,
+        row sep=5pt] (contact) {
+        \node{\faMale};
+         & \node{May 14th, 2001.  22 years old.};\\
+        \node{\faEnvelope}; 
+         & \node{\href{mailto:lmirandn@uc.cl}{lmirandn@uc.cl}};\\
+         \node{\faEnvelopeO}; 
+        \node{\faPhone}; 
+         & \node{+56 9 3003 3502};\\ 
+        %\node{\faLinkedinSquare}; 
+        \\
+        %\node{\aiResearchGateSquare}; 
+        %& \node{\href{your Research Gate Link here}{Research Gate: Jack}};\\
+        %\node{\aiOrcid}; 
+        %& \node{\href{your Orcid Link here}{ORCID: xxxx-xxxx-xxxx-xxxx}};\\
+        %\node{\faCar};
+        %& \node{Licencia de Conducir Clase B};\\
+         };
+        \end{tikzpicture} 
+        \ruleline{\textbf{Skills}}
+    \vspace*{-0.5cm}
+    \begin{center}
+        \cvtag{Creativity}\cvtag{Curiosity}\cvtag{Team-work}\cvtag{Teaching}\cvtag{Autonomy} \cvtag{Perseverance}
+    \end{center}
+        %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+        \ruleline{\textbf{Language}}
+        \begin{tikzpicture}[every node/.style={inner sep=0pt, outer sep=0pt}]
+        \matrix [
+        column 1/.style={anchor=center,contactIcon},
+        column 2/.style={anchor=west,align=left,contactIcon},
+        column sep=5pt,
+        row sep=5pt] (contact) {
+        \node{\flag{England.png}};
+        & \node{English - Intermediate};\\
+        %\node{\flag{Italy.png}};
+        %& \node{Italian - Professional Knowledge};\\
+        \node{\flag{Spain.png}};
+        & \node{Spanish - Native};\\
+        %\node{\flag{France.png}};
+        %& \node{French - Professional Knowledge};\\
+        };
+        \end{tikzpicture} 
+        \ruleline{{\faCode} \textbf{Programming Languages}}
+        \begin{tikzpicture}[every node/.style={inner sep=0pt, outer sep=0pt}]
+        \matrix [
+        column 1/.style={anchor=center,contactIcon},
+        column 2/.style={anchor=west,align=left,contactIcon},
+        column sep=5pt,
+        row sep=5pt] (contact) {
+        \\node{};
+        & \node{\textbf{Matlab}: Basic };\\
+        %\node{\flag{Italy.png}};
+        %& \node{Italian - Professional Knowledge};\\
+        \node{};
+        & \node{\textbf{Python}: Advanced (Keras, Pytorch, \\
+        
+        Tensorflow, Hugging-Face, Langchain, etc)};\\
+        
+        %\node{\flag{France.png}};
+        %& \node{French - Professional Knowledge};\\
+        \node{};
+        & \node{\textbf{C}: Advanced};\\
+        };
+        \end{tikzpicture} 
+        \ruleline{{\faDesktop} \textbf{Technologies}}
+        \begin{tikzpicture}[every node/.style={inner sep=0pt, outer sep=0pt}]
+        \matrix [
+        column 1/.style={anchor=center,contactIcon},
+        column 2/.style={anchor=west,align=left,contactIcon},
+        column sep=5pt,
+        row sep=5pt] (contact) {
+        \node{Data Analysis};
+        & \node{\textbf{Matlab}: Basic };\\
+        %\node{\flag{Italy.png}};
+        %& \node{Italian - Professional Knowledge};\\
+        & \node{\textbf{Wolfram Math}: Advanced};\\
+        & \node{\textbf{Jupyter Notebook}: Advanced};\\
+        %\node{\flag{France.png}};
+        %& \node{French - Professional Knowledge};\\
+        \node{Office};
+        & \node{\textbf{\LaTeX}: Advanced} ;\\
+        & \node{\textbf{MS Office}: Advanced} ;\\
+        };
+        \end{tikzpicture} 
+        %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+        % QR Code
+        \ruleline{\textbf{Courses}}
+        \begin{tikzpicture}[every node/.style={inner sep=0pt, outer sep=0pt}]
+        \matrix [
+        column 1/.style={anchor=center,contactIcon},
+        column 2/.style={anchor=west,align=left,contactIcon},
+        column sep=5pt,
+        row sep=5pt] (contact) {
+        \node{};
+        & \node{Software engineering, Artificial Intelligence,\\ Computer Vision, Recommender Systems, \\Deep Learning, Natural language Processing, };\\
+        %\node{\flag{Italy.png}};
+        %& \node{Italian - Professional Knowledge};\\
+        \node{};
+        & \node{Data Structure and algorithms, Data Privacy};\\
+        %\node{\flag{France.png}};
+        %& \node{French - Professional Knowledge};\\
+        };
+        \end{tikzpicture}
+        
+        
+    \end{minipage}} %
+    \hfill 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%% MAIN SECTION %%%%%%%%%%%%%%%%%%%%
+    \adjustbox{valign=t}{\begin{minipage}{11.3cm}
+        \vspace*{1cm}
+        \section*{{\faGraduationCap}Education}
+
+        \MySection{August 2023 - Today}{}{PhD in Engineering Sciences, area Computer Science}{Pontificia Universidad Católica de Chile}{Vicuña Mackenna 4860, Macul}{\href{https://dcc.ing.puc.cl/}{Department of Computer Science, PUC}}
+            {Currently in my second semester of doctoral studies, under the supervision of Professor \href{https://sites.google.com/view/jdunstan/home}{Jocelyn Dunstan}}.
+        \vspace*{0.12cm}
+            
+        \MySection{2019-2023}{}{Bachelor's Degree in Physics}{Pontificia Universidad Católica de Chile}{Vicuña Mackenna 4860, Macul}{Faculty of Physics, PUC}{I hold a Bachelor's Degree in Physics from PUC with excellent grades, even receiving the award for the highest GPA in 2021.}{}
+        \vspace*{0.12cm}        
+        
+                
+        %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+        % Work Experience
+        \section*{{\faSuitcase} Work Experience}
+        \vspace*{0.22cm} 
+         \MySectionNoPic{August 2023 - Today}{Clinical NLP Data Scientist}{Ramón Carnicer 163}{Chilean Safety Association (\href{https://achs.cl/}{ACHS})}{I work as a researcher at ACHS, specializing in the field of clinical NLP, creating language models and corpora to address classification and NER tasks.}
+
+         \MySectionNoPic{August 2023 - Today}{Data privacy Researcher}{Vicuña Mackenna 4860, Macul}{Millenium Institute for Foundational Research on Data (\href{https://imfd.cl/}{IMFD})}{I am part of the Data Privacy group at IMFD, currently researching the creation and evaluation of language models that ensure privacy guarantees.}
+       
+         
+        \MySectionNoPic{2020-2023}{Undergraduate Research}{Vicuña Mackenna 4860}{Facultad de Física UC}{During my physics studies, I worked on computational simulations of atomic systems (NAVY project), simulations of quantum systems, and quantum metrology using ESR.}
+            
+        
+        
+        \MySectionNoPic{2019-2022}{Teaching Assistantships}{Vicuña Mackenna 4860}{Facultad de Física UC}{Theoretical and laboratory teaching assistantships in courses such as "Dynamics," "Thermodynamics," and "Classical Mechanics" at the Faculty of Physics, PUC.} 
+
+        
+         
+        \vspace*{0.22cm}    
+       
+
+     \section*{Publications and Participation in Research}
+         \vspace*{0.5cm}  
+    I have been actively involved in several research endeavors. Notably, I contributed to the development of a Python library, and I co-authored both papers that are currently undergoing review.
+    \begin{itemize}
+
+    \footnotesize
+        
+        \item Research Article: \textbf{\textit{A pseudonymized corpus of occupational health narratives for clinical entity recognition in Spanish}} (under review). The preprint is available \href{https://doi.org/10.21203/rs.3.rs-3826527/v1}{here}.
+        \item Research Article: \textbf{\textit{A Privacy-Preserving Corpus for Occupational Health in Spanish: Evaluation for NER and Classification Tasks}} (under review). This paper presents a corpus annotated to anonymize personally identifiable information. The value of the corpus is demonstrated by evaluating its use for NER and a classification task. Submitted to the NAACL 2024 Workshop on Clinical NLP.
+        \item Python Library: \textbf{llmNER}, library for implementing zero-shot and few-shot Named Entity Recognition with LLMs, the library enables the user to perform prompt engineering efficiently by multiple prompting methods, answer shapes, few-shot demonstrations, and prompt templates. See \href{https://github.com/plncmm/llmner}{\texit{llmNER's github}}.
+        \item[\vspace{\fill}]
+    \end{itemize}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+        % Publications
+        %\section*{{\aiOBP} PUBLICACIONES}
+            
+        %\publication{Journal Article}{2022}{Estudio de los dobles caminos producidos por
+%interferencias en el telescopio de banda Q de CLASS a 38GHz}{Rodrigo Pozo}{Journal I3, Ingeniería UC}{}
+            
+    \end{minipage}} %
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Second Page
+
+
+
+\end{document}
